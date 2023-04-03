@@ -1,0 +1,48 @@
+.formulario{
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    color: #ce477f;
+    padding: 40px;
+    border-radius: 7px;
+}
+
+#saldacao{
+    font-size: 20px;
+    margin-bottom: 20px;
+    align-self: center;
+}
+
+.formulario h4 {
+    margin: 0;
+}
+
+.formulario input{
+    border: 2px solid #32b9cd;
+    border-radius: 5px;
+    margin: 5px 0 20px 0;
+    padding: 5px;
+}
+
+.formulario button{
+    cursor: pointer;
+    align-self: center;
+
+    background-color: #ce477f;
+    color: white;
+
+    border-radius: 5px;
+    border: 2px solid transparent;
+    
+    padding: 8px;
+    width: 80%;
+    font-weight: 600;
+
+    transition: 1s;
+}
+
+.formulario button:hover{
+    border-color: #ce477f;
+    background-color: #fff;
+    color: #ce477f;
+}
